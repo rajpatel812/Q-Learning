@@ -1,6 +1,6 @@
 import Rating from "@mui/material/Rating";
 import CurrencyRupeeIcon from "@mui/icons-material/CurrencyRupee";
-import { StaticImageData } from "next/image";
+import { StaticImageData } from "next/legacy/image";
 import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 import axios from "axios";

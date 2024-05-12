@@ -5,7 +5,7 @@ import { Console } from "console";
 import { getCookie } from "cookies-next";
 import { useFormik } from "formik";
 import { ArrowRight } from "lucide-react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { updateUser } from "@/schemas/UserSchema";

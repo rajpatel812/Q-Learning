@@ -1,5 +1,9 @@
-module.exports = {
+const nextConfig = {
   images: {
-    domains: ["res.cloudinary.com"],
+    remotePatterns: [
+     {hostname:"res.cloudinary.com"}
+  ],
   },
 };
+
+module.exports = nextConfig;

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 function Feature() {
 
@@ -40,7 +40,7 @@ function Feature() {
               objectPosition="center" // Centers the image within the container
               width={1000}
               height={1000}
-              src="http://res.cloudinary.com/dgdumobsz/dhyrkh4xyplltvxkepuf"
+              src="http://res.cloudinary.com/dgdumobsz/Images/dfqttmoxokukeavuojdc"
               alt="Image"
             />
           </div>
